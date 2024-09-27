@@ -6,7 +6,7 @@ wordlist = TRIE(csw19)
 
 def anagrammer(string, anagrams):
 	# Make string lowercase in accordance with dictionary
-	string = string.upper()
+	string = string.lower()
 	predicate = ""
 	anagramHelper(string, anagrams, predicate)
 	
